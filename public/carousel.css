@@ -60,6 +60,10 @@ body {
 
 /* rtl:end:remove */
 
+footer, a {
+  color: #5a5a5a;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
