@@ -16,7 +16,7 @@ body {
 .carousel {
   margin-bottom: 4rem;
 }
-.bd-placeholder-img {
+.carousel-img {
   opacity: .9;
 }
 /* Since positioning the image, we need to help out the caption */
