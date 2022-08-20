@@ -1,7 +1,11 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
+.img-thumbnail {
+  border-color: gold;
+  background-color: black;
+  color: gold;
+}
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
