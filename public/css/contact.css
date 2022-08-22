@@ -1,7 +1,5 @@
-.carousel-img {
-  height: 100;
-  width: 100;
-}
+
+
 
 body {
   padding-top: 3rem;
@@ -11,6 +9,7 @@ body {
 .container {
   max-width: 960px;
 }
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
