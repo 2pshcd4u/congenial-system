@@ -4,16 +4,16 @@
 
    <url>
 
-      <loc>http://www.cloudtensolutions.com/</loc>
-      <loc>http://www.cloudtensolutions.com/contact</loc>
-      <loc>http://www.cloudtensolutions.com/privacy</loc>
+      <loc>https://www.cloudtensolutions.com/</loc>
+      <loc>https://www.cloudtensolutions.com/contact/</loc>
+      <loc>https://www.cloudtensolutions.com/privacy/</loc>
 
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-24-08</lastmod>
 
-      <changefreq>monthly</changefreq>
+      <changefreq>hourly</changefreq>
 
       <priority>0.8</priority>
 
    </url>
 
-</urlset> 
+</urlset>
