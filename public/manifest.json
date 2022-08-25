@@ -21,6 +21,11 @@
       "src": "laptop.jpeg",
       "type": "image/jpeg",
       "sizes": "150X150"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "150X150"
     }
   ],
   "start_url": ".",

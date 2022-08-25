@@ -1,4 +1,7 @@
-
+.img-fluid {
+  width: 175px;
+  height: 50px;
+}
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */

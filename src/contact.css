@@ -1,5 +1,8 @@
 
-
+.img-fluid {
+  width: 175px;
+  height: 50px;
+}
 
 body {
   padding-top: 3rem;
@@ -58,7 +61,6 @@ body {
   overflow-x: auto;
   text-align: center;
   white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
 }
 
 footer, a {
