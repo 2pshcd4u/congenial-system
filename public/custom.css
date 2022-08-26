@@ -92,4 +92,7 @@ body {
       margin-top: 7rem;
     }
   }
-  
+  .footer-logo {
+    width: 200px;
+    height: 80px;
+  }

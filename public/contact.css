@@ -47,3 +47,7 @@ body {
 footer, a {
   color: #5a5a5a;
 }
+.footer-logo {
+  width: 200px;
+  height: 80px;
+}
