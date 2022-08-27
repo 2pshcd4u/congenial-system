@@ -1,12 +1,5 @@
 {
     "navigationFallback": {
         "rewrite": "/index.html"
-    },
-    "globalHeaders": {
-      "Content-Security-Policy": "default-src 'self' data: 'unsafe-inline' 'unsafe-eval'",
-      "X-Xss-Protection": "1; mode=block",
-      "Strict-Transport-Security": "max-age=500 ; includeSubDomains",
-      "X-Content-Type-Options": "nosniff",
-      "X-Frame-Options": "SAMEORIGIN"
     }
   }
