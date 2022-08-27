@@ -1,5 +1,14 @@
 {
     "navigationFallback": {
         "rewrite": "/index.html"
+    },
+    "globalHeaders": {
+      "Access-Control-Allow-Origin": "https://example.com",
+      "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+      "Content-Security-Policy": "default-src 'self' data: 'unsafe-inline' 'unsafe-eval'",
+      "X-Xss-Protection": "1; mode=block",
+      "Strict-Transport-Security": "max-age=500 ; includeSubDomains",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "SAMEORIGIN"
     }
-}
+  }

@@ -1,17 +1,17 @@
-#RewriteEngine On
-#RewriteCond %{HTTP:X-Forwarded-Proto} !https
-#RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301, L]
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301, L]
 
-#Header always set Strict-Transport-Security "max-age=300; includeSubDomains; preload" env=HTTPS
+Header always set Strict-Transport-Security "max-age=300; includeSubDomains; preload" env=HTTPS
 
 #Begin
-#<If Module mod_rewrite.c>
-#    Rewrite On
-#    RewriteEngine On
-#    RewriteBase /
-#    RewriteRule ^index\.html$ - [L]
-#    RewriteCond %{REQUEST_FILENAME} !-f
-#    RewriteCond %{REQUEST_FILESNAME} !-d
-#    RewriteRule . /index.html [L]
-#</IfModule>
+<If Module mod_rewrite.c>
+    Rewrite On
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILESNAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>
 #End
