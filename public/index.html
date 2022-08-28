@@ -18,41 +18,25 @@
       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
       <link href="./custom.css" rel="stylesheet">
-      <title>Home</title> 
+      <title>Cloud 10 Solutions Home Page</title> 
   </head>
     <body>
-      <div id="root"></div>
-        <header>
-          <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-black">
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black">
             <div class="container-fluid">
               <div class="navbar-brand">
-              <img src="./images/logo_bw.png" class="img img-logo" alt="A light blue cloud"></img>
+              <img src="./images/bwlogo.png" class="img-logo" alt="A black and grey cloud">
               </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                       <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                         <a class="nav-link active" aria-current="page" href="./index.html" title="home">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-                          </svg>
-                        </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">941-226-9613</a>
-                        </li>
-                        </div>
-                      </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-<main>
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <li class="nav-link active" aria-current="page">Home</li>                       
+                        <li class="nav-link">Contact</li>
+                    </div>
+              </div>
+          </nav>
+  <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -60,8 +44,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="carousel-img" src="./images/mobility.png" alt="Laptop Computer" />
-
+        <img class="carousel-img" class="d-block w-100" src="./images/mobility.png" width="800" height="400" alt="Laptop Computer"></img>
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>Endpoint Configuration</h1>
@@ -71,8 +54,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="carousel-img" src="./images/datamigration.png" alt="Computer object moving" />
-
+        <img class="carousel-img" class="d-block w-100" src="./images/datamigration.png" width="800" height="400" alt="Computer object moving">
         <div class="container">
           <div class="carousel-caption text-center">
             <h1>Cloud Migration</h1>
@@ -81,18 +63,18 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="carousel-img" src="./images/cloud-security.png" alt="Cloud with padlock" />
 
+      <div class="carousel-item">
+        <img class="carousel-img" class="d-block w-100" src="./images/security.png" width="800" height="400" alt="Cloud with padlock">
         <div class="container">
           <div class="carousel-caption text-end">
             <h1>Secured Workloads</h1>
             <p>Encrypt data in transit and at rest!</p>
             <p><a class="btn btn-lg btn-primary btn-dark" href="#">Click here</a></p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -102,52 +84,38 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
   <div class="container marketing">
     <div class="row">
       <div class="col-lg-4 pt-5">
-        <img class="rounded-circle" src="./images/laptop.jpeg" height="150" width="150" alt="Workstations and Laptops" />
-
+        <img class="rounded-circle" src="./images/laptop.jpeg" height="150" width="150" alt="Workstations and Laptops">
         <h2 class="fw-normal">Desktops & Laptops</h2>
-        <p>High recommended hardware for order or you can schedule an installation.</p>
+        <p>Highly recommended hardware for order or you can schedule an installation.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
+      </div>
       <div class="col-lg-4 pt-5">
-        <img class="rounded-circle" src="./images/server.jpeg" alt="Server System" width="150" height="150" />
-
+        <img class="rounded-circle" src="./images/server.jpeg" alt="Server System" width="150" height="150">
         <h2 class="fw-normal">Servers</h2>
         <p>Server or workstation installations, configurations, and troubleshooting to keep your environment running smooth!</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
+      </div>
       <div class="col-lg-4 pt-5">
-        <img class="rounded-circle" src="./images/network.jpeg" alt="Networking equipment" height="150" width="150" />
-
+        <img class="rounded-circle" src="./images/network.jpeg" alt="Networking equipment" height="150" width="150">
         <h2 class="fw-normal">Networking</h2>
         <p>Find out what we are working on in our solutions development page. Here you'll find common and custom IT projects.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
+      </div>
+    </div>
+    <hr class="featurette-divider"></hr>
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading fw-normal lh-1">Centralized Device Management</h2>
         <p class="lead">Simplify the management of your remote workforce!</p>
       </div>
       <div class="col-md-5">
-        <img class="carousel-img carousel-img-lg featurette-image img-fluid mx-auto" src="/images/cloud_mobility.jpeg" alt="Mobile devices connected" width="500" height="500" />
-
+        <img class="carousel-img carousel-img-lg featurette-image img-fluid mx-auto" src="./images/cloud_mobility.jpeg" alt="Mobile devices connected" width="500" height="500">
       </div>
     </div>
-
-    <hr class="featurette-divider">
+    <hr class="featurette-divider"></hr>
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
@@ -155,13 +123,10 @@
         <p class="lead">Meet industry standard best practice configuration that protect the brand!</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img class="carousel-img carousel-img-lg featurette-image img-fluid mx-auto" src="/images/programming.jpeg" alt="Computer code showing on a screen." width="500" height="500" />
-
+        <img class="carousel-img carousel-img-lg featurette-image img-fluid mx-auto" src="./images/programming.jpeg" alt="Computer code showing on a screen." width="500" height="500" />
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
+    <hr class="featurette-divider"></hr>
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading fw-normal lh-1">Professional Services</h2>
@@ -171,23 +136,16 @@
         <img class="carousel-img carousel-img-lg featurette-image img-fluid mx-auto" src="./images/it_support.jpeg" alt="An employee working on a computer." width="500" height="500" />
       </div>
     </div>
+    <hr class="featurette-divider"></hr>
 
-    <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-</main>
-  <!-- FOOTER -->
-  <div class="text-center">
-  <footer class="container">
-    <img class="img footer-logo" src="./images/logo_wg.png" alt="A gray cloud."></img>
-    <p>Contact: 941-226-9613</p>
-    <a href="./privacy.html">Privacy</a>
-  </footer>
-  </div>
-
+    <div class="text-center">
+      <footer class="container">
+        <img class="img footer-logo" src="./images/logo_wg.png" alt="A grey cloud."></img>
+        <p>Contact: 941-226-9613</p>
+        <a href="./privacy.html">Privacy</a>
+      </footer>
+      </div>
 
 <script crossorigin src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
