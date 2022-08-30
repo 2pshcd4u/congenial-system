@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './Layout';
 import Home from './Home';
 import Privacy from './Privacy';
-import NoPage from './NoPage';
 import './custom.scss';
 
 
