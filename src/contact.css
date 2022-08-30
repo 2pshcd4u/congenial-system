@@ -1,6 +1,6 @@
 
-.img {
-  width: 150px;
+.img-logo {
+  width: 200px;
   height: 60px;
 }
 body {
@@ -41,8 +41,6 @@ body {
   vertical-align: -.125em;
   fill: currentColor;
 }
-
-
 
 footer, a {
   color: #5a5a5a;
