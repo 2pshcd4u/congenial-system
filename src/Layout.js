@@ -14,7 +14,7 @@ const Layout = () => {
                        src={bwlogo}
                        width={200}
                        height={80}
-                       alt="A grey laptop computer with a black background."
+                       alt="Cloud 10 Solutions black and white logo."
                 />
               </Navbar.Brand>
               <Nav className="navbar-nav me-auto mb-2 mb-md-0">
