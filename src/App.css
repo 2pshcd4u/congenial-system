@@ -1,7 +1,7 @@
 .img-logo {
     width: 200px;
     height: 80px;
-}
+  }
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -13,13 +13,12 @@ body {
   color: #5a5a5a;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 /* MARKETING CONTENT
@@ -81,10 +80,4 @@ body {
   .footer-logo {
     width: 200px;
     height: 80px;
-
   }
-
-
-
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
-

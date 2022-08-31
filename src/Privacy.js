@@ -1,52 +1,32 @@
-import Container from "react-bootstrap/esm/Container";
-import Nav from "react-bootstrap/esm/Nav";
-import Navbar from 'react-bootstrap/Navbar';
-import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
-import bwlogo from './images/bwlogo.png';
-import whitelogo from './images/logo_wg.png';
+
+import React from 'react';
 
 const Privacy = () => {
-    return (
-<>
-<Navbar className="navbar navbar-expand fixed-top" bg="black" variant="dark">
-            <Container fluid>
-              <NavbarBrand href="/Home">
-                <img 
-                       className="img-logo"
-                       src={bwlogo}
-                       width={200}
-                       height={80}
-                       alt="Cloud 10 Solutions black and white logo."
-                />
-              </NavbarBrand>
-              <Nav className="navbar-nav me-auto mb-2 mb-md-0">
-                <Nav.Link to="/">Home</Nav.Link>
-              </Nav>
-            </Container>
-</Navbar>            
-
-    <div class="py-5 text-center">
-      <h2 class="mt-5">"Cloud 10 Solutions - PRIVACY POLICY"</h2>
+     return (
+<>    
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h2 class="py-5 text-center mt-5">Cloud 10 Solutions - PRIVACY POLICY</h2>
+        </div>
     </div>
-
-
-<p>Cloud 10 Solutions, LLC cares about your privacy. For this reason, we collect and use personal information only as needed to deliver our products, services, websites and mobile applications, and to communicate with you about the same, or as you have requested (collectively, our “Services”). Your personal information includes information such as:</p>
-
-<ul>
-    <li>Name</li>
-    <li>Address</li>
-    <li>Telephone number</li>
-    <li>Date of birth</li>
-    <li>Email address</li>
-</ul>
-
-<h6><strong>Billing and payment information</strong></h6>
-<p>Candidate information (for job applicants)</p>
-<p>Other data collected that could directly or indirectly identify you.</p>
-<p>What information we collect, how we collect it, and why</p>
-<p>Much of what you likely consider personal information is collected directly from you when you:</p>
-<p>create an account or purchase any of our Services (ex: billing information, including name, address, credit card number,</p>
-<p>government identification);</p>
+    <div class="row">
+        <div class="col">
+        <p>Cloud 10 Solutions, LLC cares about your privacy. For this reason, we collect and use personal information only as needed to deliver our products, services, websites and mobile applications, and to communicate with you about the same, or as you have requested (collectively, our “Services”). Your personal information includes information such as:</p>
+        <ul>
+            <li>Name</li>
+            <li>Address</li>
+            <li>Telephone number</li>
+            <li>Date of birth</li>
+            <li>Email address</li>
+        </ul>
+            <h6><strong>Billing and payment information</strong></h6>
+                <p>Candidate information (for job applicants).</p>
+                <p>Other data collected that could directly or indirectly identify you.</p>
+                <p>What information we collect, how we collect it, and why</p>
+                <p>Much of what you likely consider personal information is collected directly from you when you:</p>
+                <p>create an account or purchase any of our Services (ex: billing information, including name, address, credit card number,</p>
+                <p>government identification);</p>
 <p>request assistance from our award-winning customer support team (ex: phone number, voice recordings);</p>
 <p>complete contact forms or request newsletters or other information from us (ex: email); or</p>
 <p>participate in contests and surveys, apply for a job, or otherwise participate in activities we promote that might</p>
@@ -131,11 +111,12 @@ const Privacy = () => {
 <p>communications. We may also contact you with offers for additional services we think you’ll find valuable if you give us</p>
 <p>consent, or where allowed to contact you based on legitimate interests. You don’t need to provide consent as a condition</p>
 <p>to purchase our goods or services. These contacts may include:</p>
+
 <ul>
-  <li>Email</li>
-  <li>Text (SMS) messages</li>
-  <li>Telephone calls</li>
-  <li>Messenger applications (e.g. WhatsApp, etc.)</li>
+<li>Email</li>
+<li>Text (SMS) messages</li>
+<li>Telephone calls</li>
+<li>Messenger applications (e.g. WhatsApp, etc.)</li>
 </ul>
 
 <h6><strong>Automated phone calls or text messages.</strong></h6>
@@ -186,15 +167,15 @@ const Privacy = () => {
 <h6><strong>By Phone: 1-941-226-9613</strong></h6>
 <p>We will respond to all requests, inquiries or concerns within thirty (30) days.</p>
 <p>If you are not satisfied with our response, you may direct privacy complaints to your local data protection authority. Cloud 10 Solutions, LLC is the data controller for www.cloudtensolutions.com.</p>
-  
-  <div class="text-center">
-    <footer class="container">
-      <img class="img footer-logo" src={whitelogo} alt="A grey cloud."></img>
-      <p>Contact: 941-226-9613</p>
-      <a href="/Privacy">Privacy</a>
-    </footer>
     </div>
-    </>
-    );
-}
+</div>
+<footer>
+<img class="footer-logo" src="images/logo_wg.png" alt="A grey cloud."></img>
+<p>Contact: 941-226-9613</p>
+<a href="/privacy">Privacy</a>
+</footer>
+        </div>
+</>
+     )
+  }
 export default Privacy;

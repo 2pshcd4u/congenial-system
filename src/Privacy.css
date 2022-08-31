@@ -1,0 +1,14 @@
+.img-logo {
+    width: 200px;
+    height: 80px;
+  }
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #5a5a5a;
+}
