@@ -7,6 +7,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -74,13 +75,7 @@ body {
   }
 }
 
-  footer, a {
-    color: #5a5a5a;
-  }
-  .footer-logo {
-    width: 200px;
-    height: 80px;
-  }
-  .facebook-logo {
-    color: #5a5a5a;
-  }
+#footer-logo {
+  display: block;
+  align-content: flex-end;
+}
