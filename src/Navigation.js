@@ -19,7 +19,7 @@ export default function Navigation() {
                 </svg>
               </li>
              
-              <li class="nav-item mx-2 text-secondary secondary">           
+              <li class="nav-item mx-2 text-secondary">           
                 941-226-9613
               </li>
             </ul>
