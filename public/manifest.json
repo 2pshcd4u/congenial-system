@@ -15,17 +15,17 @@
     {
       "src": "server.jpeg",
       "type": "image/jpeg",
-      "sizes": "150x150"
+      "sizes": "200x200"
     },
     {
       "src": "laptop.jpeg",
       "type": "image/jpeg",
-      "sizes": "150X150"
+      "sizes": "200X200"
     },
     {
-      "src": "logo.png",
+      "src": "bwlogo.png",
       "type": "image/png",
-      "sizes": "150X150"
+      "sizes": "200X80"
     }
   ],
   "start_url": ".",
