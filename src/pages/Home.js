@@ -13,7 +13,6 @@ const Home = () => {
     return (
 <>
 <div id="home" class="Home">
-
     <div class="carousel">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
