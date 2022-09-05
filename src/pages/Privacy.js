@@ -1,7 +1,9 @@
+import wglogo from "./images/wglogo.png"
 
-function Privacy() {
+
+const Privacy = () => {
     return (
-        <div id="privacy">
+        <div id="privacy" class="Privacy">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
@@ -124,9 +126,17 @@ function Privacy() {
                         </div>
                     </div>
                 </div>
+                <hr class="featurette-divider" />
+<footer>
+    <div class="container-fluid">                
+        <img class="d-block mx-auto mb-3" src={wglogo} width={200} height={80} alt="Company Logo" />
+    </div>
+    <div class="text-center">
+        <h6>&copy; Cloud 10 Solutions, L.L.C | All Rights Reserved</h6>
+    </div>
+</footer>
             </div>
 
     );
 }
-
 export default Privacy;
