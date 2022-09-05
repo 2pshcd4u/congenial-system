@@ -6,6 +6,8 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import "./index.css";
+import NoPage from "./pages/Nopage";
+
 
 
 export default function App() {
@@ -17,6 +19,7 @@ export default function App() {
             <Route path="blogs" element={<Blogs />} />
             <Route path="contact" element={<Contact />} />
             <Route path="privacy" element={<Privacy />} />
+            <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

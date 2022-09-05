@@ -3,17 +3,17 @@ import wglogo from "./images/wglogo.png"
 
 const Privacy = () => {
     return (
-        <div id="privacy" class="Privacy">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <h2 class="py-5 text-center mt-5">Cloud 10 Solutions - PRIVACY POLICY</h2>
+        <div id="privacy" className="Privacy">
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col">
+                        <h2 className="py-5 text-center mt-5">Cloud 10 Solutions - PRIVACY POLICY</h2>
                             <p>Cloud 10 Solutions, LLC cares about your privacy. For this reason, we collect and use personal information only as needed to deliver our products, services, websites and mobile applications, and to communicate with you about the same, or as you have requested (collectively, our “Services”). Your personal information includes information such as:</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <ul class="mx-5">
+                <div className="row">
+                    <div className="col">
+                        <ul className="mx-5">
                             <li>Name</li>
                             <li>Address</li>
                             <li>Telephone number</li>
@@ -22,8 +22,8 @@ const Privacy = () => {
                         </ul>
                     </div>  
                 </div>
-                <div class="row">
-                    <div class="col">
+                <div className="row">
+                    <div className="col">
                         <h6><strong>Billing and payment information</strong></h6>
                             <p>Candidate information for job applicants. Other data collected that could directly or indirectly identify you. What information we collect, how we collect it, and why.</p>
                             <p>Much of what you likely consider personal information is collected directly from you when you create an account or purchase any of our Services ex: billing information, including name, address, credit card number, government identification;</p>
@@ -46,8 +46,8 @@ const Privacy = () => {
                             <p>only use that information for the specific reason for which it was provided to us.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <h6><strong>How we utilize information.</strong></h6>
                                 <p>We strongly believe in both minimizing the data we collect and limiting its use and purpose to only that 1. for which</p>
                                 <p>we have been given permission, 2. as necessary to deliver the Services you purchase or interact with, or 3. as we</p>
@@ -66,8 +66,8 @@ const Privacy = () => {
                                 <p>Customer relationship management, security, risk management and compliance.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <h6><strong>How we secure, store and retain your data.</strong></h6>
                                 <p>We follow generally accepted standards to store and protect the personal information we collect, both during transmission and once received and stored, including utilization of encryption where appropriate. We retain personal information for as long as required to engage in the uses described in this Privacy Policy, unless a longer retention period is required by applicable law.</p>
                                 <p>The criteria used to determine our retention periods include the following the length of time we have an ongoing relationship with you and provide Services to you for example, for as long as you have an account with us or keep using our Services;</p>
@@ -75,16 +75,16 @@ const Privacy = () => {
                                 <p>Whether retention is advisable in light of our legal position such as in regard to the enforcement of our agreements, the resolution of disputes, and applicable statutes of limitations, litigation, or regulatory investigation.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">                           
+                    <div className="row">
+                        <div className="col">                           
                             <h6><strong>How you can access, update or delete your data.</strong></h6>
                                 <p>To easily access, view, update, delete or port your personal information, or to update your subscription preferences, please sign into your Account and visit “Account Settings.” Please visit our Trust Center for additional information and guidance for accessing, updating or deleting data.</p>
                                 <p>If you make a request to delete your personal information and that data is necessary for the products or services you have purchased, the request will be honored only to the extent it is no longer necessary for any Services purchased or required for our legitimate business purposes or legal or contractual record keeping requirements.</p>
                                 <p>If you are unable for any reason to access your Account Settings or our Trust Center, you may also contact us by one of the methods described in the “Contact Us” section below.</p>
                         </div>    
                     </div>        
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <h6><strong>The E.U-U.S and Swiss-U.S. Privacy Shield Frameworks.</strong></h6>
                                 <p>On July 16, 2020, the Court of Justice of the European Union issued a judgment declaring as “invalid” the European Commission’s Decision (EU) 2016/1250 of 12 July 2016 on the adequacy of the protection provided by the EU-U.S. Privacy Shield. As a result of that decision, the EU-U.S. Privacy Shield Framework is no longer a valid mechanism to comply with EU data protection requirements when transferring personal data from the European Union to the United States.</p>
                                 <p>Cloud 10 Solutions, LLC complies with the EU-U.S. Privacy Shield Framework as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information transferred from the European Union to the United States. Cloud 10 Solutions, LLC Operating Company, LLC has certified to the U.S. Department of Commerce that it adheres to the Privacy Shield Principles. If there is any conflict between the terms in this privacy policy and the Privacy Shield Principles, the Privacy Shield Principles shall govern. To learn more about the Privacy Shield program, and to view our certification, please visit https://www.privacyshield.gov/.</p>
@@ -98,8 +98,8 @@ const Privacy = () => {
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <h6><strong>Age restrictions.</strong></h6>
                                 <p>Our Services are available for purchase only for those over the age of 18. Our Services are not targeted to, intended to be consumed by or designed to entice individuals under the age of 18. If you know of or have reason to believe anyone under the age of 18 has provided us with any personal information, please contact us per the instructions below.</p>
                             <h6><strong>Non-Discrimination.</strong></h6>
@@ -110,8 +110,8 @@ const Privacy = () => {
                         </div>
                     </div>
    
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <h6><strong>Changes to this policy.</strong></h6>
                                 <p>We reserve the right to modify this Privacy Policy at any time. If we decide to change our Privacy Policy, we will post those changes to this Privacy Policy and any other places we deem appropriate, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we disclose it. If we make material changes to this Privacy Policy, we will notify you here, by email, or by means of a notice on our home page, at least thirty (30) days prior to the implementation of the changes, contact us.</p>
                                 <p>If you have any questions, concerns, or complaints about our Privacy Policy, or how we handle your personal data, you may contact our Office of the Data Protection Officer. In the alternative, you may contact us by either of the following means:</p>
@@ -126,12 +126,12 @@ const Privacy = () => {
                         </div>
                     </div>
                 </div>
-                <hr class="featurette-divider" />
+                <hr className="featurette-divider" />
 <footer>
-    <div class="container-fluid">                
-        <img class="d-block mx-auto mb-3" src={wglogo} width={200} height={80} alt="Company Logo" />
+    <div className="container-fluid">                
+        <img className="d-block mx-auto mb-3" src={wglogo} width={200} height={80} alt="Company Logo" />
     </div>
-    <div class="text-center">
+    <div className="text-center">
         <h6>&copy; Cloud 10 Solutions, L.L.C | All Rights Reserved</h6>
     </div>
 </footer>
