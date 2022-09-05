@@ -172,9 +172,6 @@ function App() {
                 <div class="text-center">
                 <h6>&copy; Cloud 10 Solutions, L.L.C | All Rights Reserved</h6>
                 </div>
-                <div class="text-center">
-                <a href="https://www.cloudtensolutions.com/solutionscenter">Technology Portal</a>
-                </div>
             </footer>
         
         </div>
