@@ -3,12 +3,12 @@ import wglogo from './images/wglogo.png';
 import mobility from './images/mobility.png';
 import migration from './images/migration.png';
 import security from './images/security.png';
-import server from './images/server.jpeg';
-import laptop from './images/laptop.jpeg';
-import network from './images/network.jpeg';
-import programming from './images/programming.jpeg';
-import cloud_mobility from './images/cloud_mobility.jpeg';
-import it_support from './images/it_support.jpeg';
+import server from './images/server.png';
+import keyboard from './images/keyboard.png';
+import network from './images/network.png';
+import programming from './images/programming.png';
+import cloud_mobility from './images/cloud_mobility.png';
+import it_support from './images/it_support.png';
 import React from "react";
 import "./App.css";
 
@@ -103,15 +103,15 @@ function App() {
     <div class="marketing">
         <div class="row my-5">
             <div class="col-lg-4">
-                <img class="rounded-circle" src={server} width={200} height={200} alt="A blade server being removed from an enclosure." />
+                <img class="rounded-circle" src={server} width={140} height={140} alt="A blade server being removed from an enclosure." />
                     <h2 class="fw-normal">Server Support</h2>
             </div>
             <div class="col-lg-4">
-                <img class="rounded-circle" src={laptop} width={200} height={200} alt="A black keyboard." />
+                <img class="rounded-circle" src={keyboard} width={140} height={140} alt="A black keyboard." />
                     <h2 class="fw-normal">Desktop Support</h2>
             </div>
             <div class="col-lg-4">
-                <img class="rounded-circle" src={network} width={200} height={200} alt="Network Device" />
+                <img class="rounded-circle" src={network} width={140} height={140} alt="Network Device" />
                     <h2 class="fw-normal">Network Support</h2>
             </div>
         </div>
