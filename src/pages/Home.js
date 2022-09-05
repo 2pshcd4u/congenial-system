@@ -22,8 +22,7 @@ const Home = () => {
                             <h3 className="mx-3">Endpoint Configuration</h3>
                                 <p>Manage your mobile devices with ease!</p>
                         </div>
-                </div>
-  
+                </div>  
                 <div className="carousel-item">
                     <img src={migration} className="d-block w-100" width={800} height={400} alt="Second slide" />
                         <div className="carousel-caption d-none d-md-block">
@@ -115,8 +114,7 @@ const Home = () => {
         <h6>&copy; Cloud 10 Solutions, L.L.C | All Rights Reserved</h6>
     </div>
 </footer>
-</div>
-   
+</div>   
 </>
     );
 }

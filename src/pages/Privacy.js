@@ -5,7 +5,7 @@ const Privacy = () => {
     return (
         <div id="privacy" className="Privacy">
             <div className="container-fluid">
-                <div className="row">
+                <div className="row my-5">
                     <div className="col">
                         <h2 className="py-5 text-center mt-5">Cloud 10 Solutions - PRIVACY POLICY</h2>
                             <p>Cloud 10 Solutions, LLC cares about your privacy. For this reason, we collect and use personal information only as needed to deliver our products, services, websites and mobile applications, and to communicate with you about the same, or as you have requested (collectively, our “Services”). Your personal information includes information such as:</p>
