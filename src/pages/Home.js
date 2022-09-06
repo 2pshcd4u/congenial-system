@@ -66,10 +66,10 @@ const Home = () => {
             </div>
         </div>
 <hr className="featurette-divider" />        
-    <div className="container-fluid">
+    <div className="container">
         <div className="row featurette">
             <div className="col-md-7">
-                <h2 className="featurette-heading fw-normal lh-1">Automation-As-A-Service</h2>
+                <h2 className="featurette-heading fw-normal pt-4 lh-1">Automation-As-A-Service</h2>
                     <h2 className="text-muted">Autoclose a request? Yep, we said it!</h2>
                         <p className="lead">Redundant tasks are inevitable. Automatically resolving them is too.</p>
             </div>
@@ -79,10 +79,10 @@ const Home = () => {
         </div>
     </div>
 <hr className="featurette-divider" />
-    <div className="container-fluid">
+
         <div className="row featurette">
-            <div className="col-md-5 order-md-2">
-                <h2 className="featurette-heading fw-normal lh-1">Automate just about anything.</h2>
+            <div className="col-md-7 order-md-2">
+                <h2 className="featurette-heading fw-normal pt-4 lh-1">Automate just about anything.</h2>
                 <h2 className="text-muted">Imagine the possibilities!</h2>
                     <p className="lead">A slew of custom automation that addresses, infrastructure, mobile devices, and policy deployments.</p>
             </div>
@@ -90,21 +90,18 @@ const Home = () => {
                 <img src={cloud_mobility} width={500} height={250} alt="Graphic cloud infrastructure related devices." />
             </div>
         </div>
-    </div>
 <hr className="featurette-divider" />
-    <div className="container-fluid">
         <div className="row featurette">
-            <div className="col-md-5">
-                <h2 className="featurette-heading fw-normal lh-1">We can build it.</h2>
-                    <h2 className="text-muted">Just for you.</h2>
-                        <p className="lead">Every infrastructure is different but each have a base of common tasks. Let"s start there! Afterwards, build on it.</p>
+            <div className="col-md-7">
+                <h2 className="featurette-heading pt-4 fw-normal text-center lh-1">Expert IT Help</h2>
+                    <h2 className="text-muted text-center">Just for you.</h2>
+                        <p className="lead text-center">Consider us as your remote IT team.</p>
             </div>
             <div className="col-md-5">
                 <img src={it_support} width={500} height={250} alt="Graphic cloud infrastructure related devices." />
             </div>
         </div>
     </div>
-</div>
 </div>
 <hr className="featurette-divider" />
 <footer>
