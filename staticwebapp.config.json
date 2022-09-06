@@ -5,8 +5,8 @@
     "exclude": ["./images/*.{png,jpg,gif}", "./css/*"]
   },
   "globalHeaders": {
-    "content-security-policy": "default-src 'self'; https:",
-    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+    "content-security-policy": "base-uri 'self'; default-src 'self'; img-src data: https:; object-src 'none'; script-src 'self'; style-src 'self'; upgrade-insecure-requests;",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
   },
   "platform": {
     "apiRuntime": "node:16"
