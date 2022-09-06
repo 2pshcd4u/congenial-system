@@ -10,7 +10,6 @@ const Layout = () => {
                 <img className="img-logo" src={bwlogo} width={200} height={80} alt="Company Logo" />
             </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
                 </button>
                     <ul className="navbar-nav ms-auto mb-2 mb-md-0">
                         <li className="nav-item">
