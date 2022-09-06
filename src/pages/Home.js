@@ -12,7 +12,7 @@ import it_support from './images/it_support.png';
 const Home = () => {
     return (
 <>
-<div id="home" className="Home">
+<div class="Home">
     <div className="carousel">
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
@@ -48,6 +48,7 @@ const Home = () => {
             </div>
         </div>
     </div>
+
 <div className="container-fluid">
     <div className="marketing">
         <div className="row my-5">
@@ -64,7 +65,6 @@ const Home = () => {
                     <h2 className="fw-normal">Network Support</h2>
             </div>
         </div>
-    </div>  
 <hr className="featurette-divider" />        
     <div className="container-fluid">
         <div className="row featurette">
@@ -81,7 +81,7 @@ const Home = () => {
 <hr className="featurette-divider" />
     <div className="container-fluid">
         <div className="row featurette">
-            <div className="col-md-7 order-md-2">
+            <div className="col-md-5 order-md-2">
                 <h2 className="featurette-heading fw-normal lh-1">Automate just about anything.</h2>
                 <h2 className="text-muted">Imagine the possibilities!</h2>
                     <p className="lead">A slew of custom automation that addresses, infrastructure, mobile devices, and policy deployments.</p>
@@ -94,7 +94,7 @@ const Home = () => {
 <hr className="featurette-divider" />
     <div className="container-fluid">
         <div className="row featurette">
-            <div className="col-md-7">
+            <div className="col-md-5">
                 <h2 className="featurette-heading fw-normal lh-1">We can build it.</h2>
                     <h2 className="text-muted">Just for you.</h2>
                         <p className="lead">Every infrastructure is different but each have a base of common tasks. Let"s start there! Afterwards, build on it.</p>
@@ -105,6 +105,7 @@ const Home = () => {
         </div>
     </div>
 </div>
+</div>
 <hr className="featurette-divider" />
 <footer>
     <div className="container-fluid">                
@@ -114,7 +115,7 @@ const Home = () => {
         <h6>&copy; Cloud 10 Solutions, L.L.C | All Rights Reserved</h6>
     </div>
 </footer>
-</div>   
+</div>
 </>
     );
 }
