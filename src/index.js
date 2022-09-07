@@ -3,8 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
-import "./index.css";
 import NoPage from "./pages/Nopage";
+import "./bootstrap.min.css.map";
+import "./bootstrap.min.css";
+import "./index.css";
+
 
 
 

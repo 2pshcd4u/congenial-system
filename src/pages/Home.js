@@ -13,8 +13,7 @@ const Home = () => {
     return (
 <>
 <div class="Home">
-    <div className="carousel">
-        <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+         <div id="carouselExampleFade" className="carousel-slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={mobilemanagement} className="d-block w-100" width={1000} height={500} alt="First slide" />
@@ -47,7 +46,6 @@ const Home = () => {
                 </button>
             </div>
         </div>
-    </div>
 
 <div className="container-fluid">
     <div className="marketing">
