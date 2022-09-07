@@ -1,5 +1,5 @@
 import wglogo from './images/wglogo.webp';
-import mobilemanagement from './images/mobilemanagement.webp';
+import mobiledevice from './images/mobiledevice.webp';
 import migration from './images/migration.webp';
 import security from './images/migratetothecloud.webp';
 import server from './images/server.webp';
@@ -15,7 +15,7 @@ const Home = () => {
          <div id="carouselExampleFade" className="carousel-slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={mobilemanagement} className="d-block w-100" width={1000} height={500} alt="First slide" />
+                    <img src={mobiledevice} className="d-block w-100" width={1000} height={500} alt="First slide" />
                         <div className="carousel-caption d-none d-md-block text-start">
                             <h3 className="text-center text-black">Endpoint Configuration</h3>
                                 <p className="text-center text-black">Manage your mobile devices with ease!</p>
