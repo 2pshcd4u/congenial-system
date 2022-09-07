@@ -12,7 +12,6 @@ import it_support from './images/itsupport.webp';
 const Home = () => {
     return (
 <>
-<div class="Home">
          <div id="carouselExampleFade" className="carousel-slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -110,7 +109,6 @@ const Home = () => {
         <h6>&copy; Cloud 10 Solutions, L.L.C | All Rights Reserved</h6>
     </div>
 </footer>
-</div>
 </>
     );
 }
