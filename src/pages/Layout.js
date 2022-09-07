@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import bwlogo from "./images/bwlogo.png";
+import bwlogo from "./images/bwlogo.webp";
 
 const Layout = () => {
   return (

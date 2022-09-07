@@ -1,4 +1,4 @@
-import wglogo from "./images/wglogo.png"
+import wglogo from "./images/wglogo.webp"
 
 
 const Privacy = () => {

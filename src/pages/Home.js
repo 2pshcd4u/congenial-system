@@ -1,13 +1,13 @@
-import wglogo from './images/wglogo.png';
-import mobility from './images/mobility.webp';
+import wglogo from './images/wglogo.webp';
+import mobilemanagement from './images/mobilemanagement.webp';
 import migration from './images/migration.webp';
 import security from './images/migratetothecloud.webp';
-import server from './images/server.png';
-import keyboard from './images/keyboard.png';
-import network from './images/network.png';
-import programming from './images/programming.png';
-import cloud_mobility from './images/cloud_mobility.png';
-import it_support from './images/it_support.png';
+import server from './images/server.webp';
+import keyboard from './images/keyboard.webp';
+import network from './images/network.webp';
+import programming from './images/programming.webp';
+import cloud_mobility from './images/cloud_mobility.webp';
+import it_support from './images/itsupport.webp';
 
 const Home = () => {
     return (
@@ -17,21 +17,21 @@ const Home = () => {
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={mobility} className="d-block w-100" width={1000} height={750} alt="First slide" />
+                    <img src={mobilemanagement} className="d-block w-100" width={1000} height={500} alt="First slide" />
                         <div className="carousel-caption d-none d-md-block text-start">
-                            <h3 className="mx-3">Endpoint Configuration</h3>
-                                <p>Manage your mobile devices with ease!</p>
+                            <h3 className="text-center text-black">Endpoint Configuration</h3>
+                                <p className="text-center text-black">Manage your mobile devices with ease!</p>
                         </div>
                 </div>  
                 <div className="carousel-item">
-                    <img src={migration} className="d-block w-100" width={1000} height={750} alt="Second slide" />
+                    <img src={migration} className="d-block w-100" width={1000} height={500} alt="Second slide" />
                         <div className="carousel-caption d-none d-md-block">
                             <h3>Cloud Migration</h3>
                                 <p>Minimize cost by migrating to the cloud!</p>
                         </div>
                 </div>
                 <div className="carousel-item">
-                    <img src={security} className="d-block w-100" width={1000} height={750} alt="Third slide" />
+                    <img src={security} className="d-block w-100" width={1000} height={500} alt="Third slide" />
                         <div className="carousel-caption d-none d-md-block">
                             <h3>Secured Workloads</h3>
                                 <p>Encrypt data in transit and at rest!</p>
