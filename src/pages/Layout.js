@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import bwlogo from "./images/bwlogo.webp";
-import phone from './images/telephone-fill.svg';
-import myFunction from '../number';
+import telephone from './images/telephone-fill.svg';
+import ourNumber from '../ourNumber';
 
 const Layout = () => {
   return (
@@ -23,8 +23,10 @@ const Layout = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <img src={phone} alt="Telephone" onClick={myFunction} />
-                            <p class="phone p-2" id="demo"></p>
+                                              
+                            <img src={telephone} alt="Telephone" class="p-2" onClick={ourNumber} />
+                            <p id="phone" href="#phone">941-226-9613</p>
+
                         </li>
                         <li className="nav-item">
                             <a className="nav-link p-2" aria-current="page" title="Link to Cloud 10 Solutions Technical Support" href="https://cloudtensolutions.atlassian.net/servicedesk/customer/portal/2">

@@ -1,5 +1,14 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
+#phone{
+  color: silver;
+  font-size: 14px;
+  display: inline;
+}
+
+#phone {
+  display: none;
+}
 /* Padding below the footer and lighter body text */
 body {
   padding-top: 3rem;
