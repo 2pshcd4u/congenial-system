@@ -1,16 +1,16 @@
 import { Outlet, Link } from "react-router-dom";
 import bwlogo from "./images/bwlogo.webp";
+import phone from './images/telephone-fill.svg';
+import myFunction from '../number';
 
 const Layout = () => {
   return (
     <>
-   <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-black">
+   <nav className="navbar navbar-expand-sm navbar-dark fixed-top bg-black">
         <div className="container-fluid">
             <a className="navbar-brand" title="Black and White Cloud 10 Company Logo" href="./images/bwlogo.png">
                 <img className="img-logo" src={bwlogo} width={200} height={80} alt="Company Logo" />
             </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                </button>
                     <ul className="navbar-nav ms-auto mb-2 mb-md-0">
                         <li className="nav-item">
                         <Link title="Link to Home Page" to='/'>                            
@@ -21,6 +21,10 @@ const Layout = () => {
                                     </svg>
                                 </a>
                             </Link>
+                        </li>
+                        <li className="nav-item">
+                            <img src={phone} alt="Telephone" onClick={myFunction} />
+                            <p class="phone p-2" id="demo"></p>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link p-2" aria-current="page" title="Link to Cloud 10 Solutions Technical Support" href="https://cloudtensolutions.atlassian.net/servicedesk/customer/portal/2">
@@ -45,7 +49,7 @@ const Layout = () => {
                             </a>
                         </Link>
                         </li>
-                    </ul>                        
+                    </ul>                    
         </div>
     </nav>
 

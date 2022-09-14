@@ -12,29 +12,29 @@ import it_support from './images/itsupport.webp';
 const Home = () => {
     return (
 <>
-         <div id="carouselExampleFade" className="carousel-slide carousel-fade" data-bs-ride="carousel">
+         <div id="carouselFade" className="carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active" data-bs-interval="10000">
                     <img src={mobiledevice} className="d-block w-100" width={1000} height={500} alt="First slide" />
                         <div className="carousel-caption d-none d-md-block text-start">
                             <h3 className="text-center text-black">Endpoint Configuration</h3>
                                 <p className="text-center text-black">Manage your mobile devices with ease!</p>
                         </div>
-                </div>  
-                <div className="carousel-item">
+                    </div>
+                <div className="carousel-item" data-bs-interval="2000">
                     <img src={migration} className="d-block w-100" width={1000} height={500} alt="Second slide" />
                         <div className="carousel-caption d-none d-md-block">
                             <h3>Cloud Migration</h3>
                                 <p>Minimize cost by migrating to the cloud!</p>
                         </div>
-                </div>
+                    </div>
                 <div className="carousel-item">
                     <img src={security} className="d-block w-100" width={1000} height={500} alt="Third slide" />
                         <div className="carousel-caption d-none d-md-block">
                             <h3>Secured Workloads</h3>
                                 <p>Encrypt data in transit and at rest!</p>
                         </div>
-                </div>
+                    </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
@@ -45,7 +45,6 @@ const Home = () => {
                 </button>
             </div>
         </div>
-
 <div className="container-fluid">
     <div className="marketing">
         <div className="row my-5">
