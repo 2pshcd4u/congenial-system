@@ -22,11 +22,9 @@ const Layout = () => {
                                 </a>
                             </Link>
                         </li>
-                        <li className="nav-item">
-                                              
+                        <li className="nav-item">                                              
                             <img src={telephone} alt="Telephone" class="p-2" onClick={ourNumber} />
                             <p id="phone" href="#phone">941-226-9613</p>
-
                         </li>
                         <li className="nav-item">
                             <a className="nav-link p-2" aria-current="page" title="Link to Cloud 10 Solutions Technical Support" href="https://cloudtensolutions.atlassian.net/servicedesk/customer/portal/2">

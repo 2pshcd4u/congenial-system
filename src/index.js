@@ -4,6 +4,8 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
 import NoPage from "./pages/Nopage";
+import './custom.scss';
+import './index.css';
 
 
 export default function App() {
