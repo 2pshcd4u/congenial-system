@@ -6,18 +6,13 @@ const Privacy = () => {
             <div className="container-fluid py-5">
                 <div class="py-5 d-block my-auto text-center silver mt-5">
                         <h3><strong>Cloud 10 Solutions - PRIVACY POLICY</strong></h3>
-                            <p>Cloud 10 Solutions cares about your privacy. For this reason, we collect and use personal information only as needed to deliver our products, services, websites and mobile applications, and to communicate with you about the same, or as you have requested (collectively, our “Services”). Your personal information includes information such as:</p>
-                    </div>            
-                        <ul>
-                            <li>Name</li>
-                            <li>Address</li>
-                            <li>Telephone number</li>
-                            <li>Date of birth</li>
-                            <li>Email address</li>
-                        </ul>
-                    
+                        <p><span>Cloud 10 Solutions collect data for analytics and business purposes.This helps us understand if the content we publish is engaging or not.
+                        We also collect data that pertains to business purposes such as subscription to our blog, or a purchase of our services.
+                        This will only be used in the way you prefer for example: newsletters, notifications of new content, confirmation and validation of login and purchases.</span></p>
+                </div>            
+
                     <div class="text-center silver"><br></br>
-                        <h6><strong>Billing and payment information</strong></h6>
+                        <h3><strong>Billing and Payment information</strong></h3>
                     </div>
                            
                            <p><span> Candidate information for job applicants. Other data collected that could directly or indirectly identify you. What information we collect, how we collect it, and why.
