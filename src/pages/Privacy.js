@@ -1,9 +1,11 @@
 import wglogo from "./images/wglogo.webp"
+import { Outlet, Link } from "react-router-dom"
 
 
 const Privacy = () => {
     return (
-            <div className="container-fluid py-5">
+        <>
+            <div className="container py-5">
                 <div class="py-5 d-block my-auto text-center silver mt-5">
                         <h3><strong>Cloud 10 Solutions - PRIVACY POLICY</strong></h3>
                         <p><span>Cloud 10 Solutions collect data for analytics and business purposes.This helps us understand if the content we publish is engaging or not.
@@ -126,16 +128,39 @@ const Privacy = () => {
                             
                                 We will respond to all requests, inquiries or concerns within thirty (30) days.
                                 If you are not satisfied with our response, you may direct privacy complaints to your local data protection authority. Cloud 10 Solutions, LLC is the data controller for www.cloudtensolutions.com.</span></p>
+                </div>
                 <hr className="featurette-divider" />
-<footer>
-    <div className="container-fluid">                
-        <img className="d-block mx-auto mb-3" src={wglogo} width={200} height={80} alt="Company Logo" />
-    </div>
-    <div className="text-center">
-        <h6>&copy; Cloud 10 Solutions, L.L.C | All Rights Reserved</h6>
-    </div>
-</footer>
+                
+                <div className="container-fluid">
+            <div className="row">         
+            <div className="col text-center">                    
+                    <a class="nav-item" className="d-inline p-2" href="https://www.facebook.com/cloudtensolutions/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" fill="blue" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                    </a>
+<div className="d-inline p-2">
+    <Link to="/privacy">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" fill="red" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647z"/>
+</svg>
+    </Link>
+                </div>
+                <div className="d-inline p-2">
+    <a href="https://www.linkedin.com/company/cloud-10-solutions-llc">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" fill="blue" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg>
+    </a>
 </div>
+<div className="d-line mt-3">           
+<h6>&copy; Cloud 10 Solutions, L.L.C | All Rights Reserved</h6>
+</div>
+</div>
+</div>
+</div>
+<Outlet />
+</>
     );
 }
 export default Privacy;
