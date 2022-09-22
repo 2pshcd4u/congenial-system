@@ -12,7 +12,7 @@ const Layout = () => {
             <a className="navbar-brand" title="Logo" href="./images/bwlogo.png">
                 <img className="img-logo" src={bwlogo} width={200} height={80} alt="Company Logo" />
             </a>
-                    <ul className="navbar-nav ms-auto mb-2 mb-md-0">
+                    <ul className="navbar-nav me-auto">
                         <li className="nav-item">
                         <Link to='/'>                            
                                 <a className="nav-link p-2" aria-current="page" title="Homepage" href="/">                                
@@ -22,10 +22,6 @@ const Layout = () => {
                                     </svg>
                                 </a>
                             </Link>
-                        </li>
-                        <li className="nav-item">                                              
-                            <img src={telephone} alt="Telephone" class="p-2" onClick={ourNumber} />
-                            <p id="phone" href="#phone">941-226-9613</p>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link p-2" aria-current="page" title="Support" href="https://cloudtensolutions.atlassian.net/servicedesk/customer/portal/2">

@@ -8,7 +8,6 @@ import network from './images/network.webp';
 import programming from './images/programming.webp';
 import cloud_mobility from './images/cloud_mobility.webp';
 import it_support from './images/itsupport.webp';
-import wglogo from './images/wglogo.webp';
 
 export default function Home() {
     return (
