@@ -4,7 +4,7 @@ import telephone from './images/telephone-fill.svg';
 import ourNumber from '../ourNumber';
 
 
-const Layout = () => {
+export default function Layout() {
   return (
     <>
    <nav className="navbar navbar-expand-sm navbar-dark fixed-top bg-black">
@@ -38,5 +38,3 @@ const Layout = () => {
     </>
   )
 };
-
-export default Layout;
