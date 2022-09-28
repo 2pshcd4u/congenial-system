@@ -6,14 +6,14 @@ const Privacy = () => {
     return (
         <>
             <div className="container py-5">
-                <div class="py-5 d-block my-auto text-center silver mt-5">
+                <div className="py-5 d-block my-auto text-center silver mt-5">
                         <h3><strong>Cloud 10 Solutions - PRIVACY POLICY</strong></h3>
                         <p><span>Cloud 10 Solutions collect data for analytics and business purposes.This helps us understand if the content we publish is engaging or not.
                         We also collect data that pertains to business purposes such as subscription to our blog, or a purchase of our services.
                         This will only be used in the way you prefer for example: newsletters, notifications of new content, confirmation and validation of login and purchases.</span></p>
                 </div>            
 
-                    <div class="text-center silver"><br></br>
+                    <div className="text-center silver"><br></br>
                         <h3><strong>Billing and Payment information</strong></h3>
                     </div>
                            
@@ -37,7 +37,7 @@ const Privacy = () => {
                             interest to you. If you provide us personal information about others, or if others give us your information, we will
                             only use that information for the specific reason for which it was provided to us.
 
-                            <div class="text-center silver"><br></br>
+                            <div className="text-center silver"><br></br>
                             <h6><strong>How we utilize information.</strong></h6>
                             </div>
                             
@@ -57,7 +57,7 @@ const Privacy = () => {
                                 Performing analysis of our services, customer demographics, and sentiment, communicating with you, such as by way of email or survey delivery.
                                 Customer relationship management, security, risk management and compliance.
                             
-                            <div class="text-center silver"><br></br>
+                            <div className="text-center silver"><br></br>
                             <h6><strong>How we secure, store and retain your data.</strong></h6>
                                 We follow generally accepted standards to store and protect the personal information we collect, both during transmission and once received and stored, including utilization of encryption where appropriate. We retain personal information for as long as required to engage in the uses described in this Privacy Policy, unless a longer retention period is required by applicable law.
                                 The criteria used to determine our retention periods include the following the length of time we have an ongoing relationship with you and provide Services to you for example, for as long as you have an account with us or keep using our Services;
@@ -65,7 +65,7 @@ const Privacy = () => {
                                 Whether retention is advisable in light of our legal position such as in regard to the enforcement of our agreements, the resolution of disputes, and applicable statutes of limitations, litigation, or regulatory investigation.
                             </div>
                             
-                            <div class="text-center silver">
+                            <div className="text-center silver">
                             <h6><strong>How you can access, update or delete your data.</strong></h6><br></br>
                             </div>
                                 
@@ -73,7 +73,7 @@ const Privacy = () => {
                                 If you make a request to delete your personal information and that data is necessary for the products or services you have purchased, the request will be honored only to the extent it is no longer necessary for any Services purchased or required for our legitimate business purposes or legal or contractual record keeping requirements.
                                 If you are unable for any reason to access your Account Settings or our Trust Center, you may also contact us by one of the methods described in the “Contact Us” section below.
      
-                                <div class="text-center silver"><br></br>
+                                <div className="text-center silver"><br></br>
                             <h6><strong>The E.U-U.S and Swiss-U.S. Privacy Shield Frameworks.</strong></h6><br></br>
                                 </div>
                                 
@@ -85,19 +85,19 @@ const Privacy = () => {
                                 In compliance with the Privacy Shield Principles, Cloud 10 Solutions, LLC commits to resolve complaints about our collection or use of your personal information. EU and Swiss individuals with inquiries or complaints regarding our Privacy Shield policy should first contact us in any manner provided in the "CONTACT US" section below in this Privacy Policy.
                                 Cloud 10 Solutions, LLC has further committed to cooperate with the panel established by the EU data protection authorities (DPAs) and the Swiss Federal Data Protection and Information Commissioner (FDPIC) with regard to unresolved Privacy Shield complaints concerning human resources data transferred from the EU and Switzerland in the context of the employment relationship.
                                 
-                            <div class="text-center silver"><br></br>
+                            <div className="text-center silver"><br></br>
                             <h6><strong>‘Do Not Track’ notifications.</strong></h6>
                             </div>
                             
                                 Some browsers allow you to automatically notify websites you visit not to track you using a “Do Not Track” signal. There is no consensus among industry participants as to what “Do Not Track” means in this context. Like many websites and online services, we currently do not alter our practices when we receive a “Do Not Track” signal from a visitor’s browser. To find out more about “Do Not Track,” you may visit www.allaboutdnt.com.
                             
-                                <div class="text-center silver"><br></br>
+                                <div className="text-center silver"><br></br>
                             <h6><strong>Age restrictions.</strong></h6>
                             </div>
                             
                                 Our Services are available for purchase only for those over the age of 18. Our Services are not targeted to, intended to be consumed by or designed to entice individuals under the age of 18. If you know of or have reason to believe anyone under the age of 18 has provided us with any personal information, please contact us per the instructions below.
                             
-                            <div class="text-center silver"><br></br>
+                            <div className="text-center silver"><br></br>
                             <h6><strong>Non-Discrimination.</strong></h6>
                             </div>
                             
@@ -106,14 +106,14 @@ const Privacy = () => {
                                 Provide you a different level or quality of goods or services.
                                 Suggest that you may receive a different price or rate for goods or services or a different level or quality of goods or services.
                             
-                            <div class="text-center silver"><br></br>
+                            <div className="text-center silver"><br></br>
                             <h6><strong>Changes to this policy.</strong></h6>
                             </div>
                             
                                 We reserve the right to modify this Privacy Policy at any time. If we decide to change our Privacy Policy, we will post those changes to this Privacy Policy and any other places we deem appropriate, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we disclose it. If we make material changes to this Privacy Policy, we will notify you here, by email, or by means of a notice on our home page, at least thirty (30) days prior to the implementation of the changes, contact us.
                                 If you have any questions, concerns, or complaints about our Privacy Policy, or how we handle your personal data, you may contact our Office of the Data Protection Officer. In the alternative, you may contact us by either of the following means:
                             
-                            <div class="text-center silver"><br></br>
+                            <div className="text-center silver"><br></br>
                             <h6><strong>By Mail:</strong></h6>
                             </div>
                             
@@ -122,7 +122,7 @@ const Privacy = () => {
                                 European Union (EEA): Attn: Legal, Office of the DPO, Hansestraße 79, 51149 Cologne, Germany 
                                 Asia: Attn: Legal, Office of the DPO, 80 Robinson Road #02-00 Singapore 068898 
                             
-                            <div class="text-center silver"><br></br>
+                            <div className="text-center silver"><br></br>
                             <h6><strong>By Phone: 1-941-226-9613</strong></h6>
                             </div>
                             
@@ -134,21 +134,21 @@ const Privacy = () => {
                 <div className="container-fluid">
             <div className="row">         
             <div className="col text-center">                    
-                    <a class="nav-item" className="d-inline p-2" href="https://www.facebook.com/cloudtensolutions/">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" fill="blue" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <a className="nav-item d-inline p-2" href="https://www.facebook.com/cloudtensolutions/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
                             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                         </svg>
                     </a>
 <div className="d-inline p-2">
     <Link to="/privacy">
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" fill="red" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-shield-fill-check" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647z"/>
 </svg>
     </Link>
                 </div>
                 <div className="d-inline p-2">
     <a href="https://www.linkedin.com/company/cloud-10-solutions-llc">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" fill="blue" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
             <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
         </svg>
     </a>
