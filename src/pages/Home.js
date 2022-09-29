@@ -3,8 +3,8 @@ import network from './images/network.webp';
 import keyboard from './images/keyboard.webp';
 import { Outlet, Link } from 'react-router-dom';
 
-export default function Home() {
-    return (
+const Home = () => {
+    return ( 
         <>
 <div className="container py-4">
     <div className="p-5 mb-4 rounded-3">
@@ -50,3 +50,4 @@ export default function Home() {
 </>
         ); 
 }
+export default Home;

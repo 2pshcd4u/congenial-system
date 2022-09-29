@@ -37,9 +37,7 @@ const Servers = () => {
         <div>
           <h2>Office | Microsoft 365</h2>
           <p>If you have Exchange server currently or on Office 365 and are ready to migrate to Microsoft 365, we've got you covered.</p>
-          <a href="https://www.upwork.com/workwith/natep12" className="btn btn-primary">
-            Get Started
-          </a>
+          <a className="btn btn-primary" href="https://www.upwork.com/workwith/natep12">Get Started</a> 
         </div>
       </div>
       <div className="col d-flex align-items-start">
