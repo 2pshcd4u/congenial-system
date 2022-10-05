@@ -10765,18 +10765,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* GLOBAL STYLES
--------------------------------------------------- */
-a {
-  color: lavender;
-}
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  color: blueviolet;
-}
-
-body, p {
-  background-color: lavender;
+/* GLOBAL STYLES */
+body {
+  background-color: white;
   color: #333333;
 }
 
@@ -10791,18 +10782,6 @@ nav {
 
 a, .nav-link {
   color: lavender;
-}
-
-.rounded-3 {
-  background-color: lavender;
-}
-
-.display-5 {
-  color: blueviolet;
-}
-
-.fs-4 {
-  color: #333333;
 }
 
 .learnbutton {

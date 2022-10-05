@@ -4,15 +4,12 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-   <nav className="navbar navbar-expand">
-        <div className="container">
+   <nav className="navbar navbar-expand-lg nav-light">
+        <div className="container-fluid">
             <a className="navbar-brand" title="Logo" href="./images/bwlogo.png">Cloud 10 Solutions</a>
                     <ul className="navbar-nav me-auto">
                         <li>
                         <a className="nav-link" href="/">Home</a>
-                        </li>
-                        <li>
-                            <a className="nav-link" href="/services">Services</a>
                         </li>
                         <li>
                             <a className="nav-link" href="https://cloudtensolutions.atlassian.net/servicedesk/customer/portal/2">Support</a>

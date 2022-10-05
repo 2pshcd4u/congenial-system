@@ -2,16 +2,7 @@ import datacenter from './images/serverillustration.jpeg';
 const Servers = () => {
     return (
 <>
-<div className="px-4 py-5 my-5 text-center">
-      <img className="d-block mx-auto mb-4 rounded" src={datacenter} alt="Illustration of a Datacenter" width={750} height={250} />
-      <h1 className="display-5 fw-bold">Server Projects</h1>
-      <div className="col-lg-6 mx-auto">
-        <p className="lead mb-4">This page is based on projects that are the most requested for us to complete.
-         Stay tuned as more content will be added.</p>
-        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        </div>
-      </div>
-    </div>
+
 <div className="container px-4" id="hanging-icons">
     <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div className="col d-flex align-items-start">
@@ -55,12 +46,6 @@ const Servers = () => {
         </div>
       </div>
     </div>
-    <div className="row">
-  <div className="col text-center py-5">
-    <h6>&copy; 2018-2022 Cloud 10 Solutions | All Rights Reserved</h6>
-    <h6>Support: support@cloudtensolutions.com</h6>
-  </div>
-</div>
   </div>
 </>
     );
